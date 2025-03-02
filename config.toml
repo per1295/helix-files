@@ -1,0 +1,80 @@
+theme = "boo_berry"
+
+[editor]
+auto-completion                    = true
+auto-format                        = false
+auto-info                          = true
+auto-save                          = true
+bufferline                         = "always"
+color-modes                        = true
+completion-replace                 = true
+completion-timeout                 = 5
+completion-trigger-len             = 1
+cursorcolumn                       = true
+cursorline                         = true
+default-line-ending                = "lf"
+idle-timeout                       = 5
+indent-heuristic                   = "hybrid"
+insert-final-newline               = true
+jump-label-alphabet                = "asdfghjklweruio"
+line-number                        = "relative"
+middle-click-paste                 = true
+mouse                              = true
+preview-completion-insert          = true
+rulers                             = [80]
+scroll-lines                       = 5
+scrolloff                          = 5
+text-width                         = 80
+true-color                         = true
+undercurl                          = true
+
+[editor.cursor-shape]
+insert                             = "bar"
+normal                             = "block"
+select                             = "underline"
+
+[editor.file-picker]
+hidden                             = true
+follow-symlinks                    = true
+deduplicate-links                  = true
+parents                            = true
+ignore                             = true
+git-ignore                         = true
+git-global                         = true
+git-exclude                        = true
+max-depth                          = 5
+
+[editor.gutters]
+layout                             = ["line-numbers","diagnostics","diff"]
+
+[editor.indent-guides]
+character                          = "|"
+render                             = true
+skip-levels                        = 0
+
+[editor.lsp]
+auto-signature-help                = true
+display-inlay-hints                = true
+display-messages                   = true
+display-signature-help-docs        = true
+enable                             = true
+goto-reference-include-declaration = true
+snippets                           = true
+
+[editor.search]
+smart-case                         = false
+
+[editor.smart-tab]
+enable                             = false
+
+[editor.soft-wrap]
+enable                             = false
+
+[editor.statusline]
+left                               = ["mode","spinner","version-control", "file-name","file-modification-indicator",]
+center                             = ["workspace-diagnostics","spacer"]
+right                              = ["primary-selection-length","spacer","register","spacer","position","separator","total-line-numbers","separator","position-percentage","file-type","file-encoding","file-line-ending"]
+separator                          = ":"
+mode.insert                        = "INSERT"
+mode.normal                        = "NORMAL"
+mode.select                        = "SELECT"
