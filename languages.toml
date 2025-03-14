@@ -49,8 +49,8 @@ auto-format = true
 [[language]]
 name = "javascript"
 language-servers = [ "typescript-language-server", "eslint", "emmet-ls" ]
-formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
-# formatter = { command = "dprint", args = [ "fmt", "--stdin", "javascript" ] }
+#formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+#formatter = { command = "dprint", args = [ "fmt", "--stdin", "javascript" ] }
 auto-format = true
 
 [[language]]
