@@ -31,6 +31,8 @@ scss = { validate = { enable = true } }
 less = { validate = { enable = true } }
 provideFormatter = true
 
+[language-server.typescript-language-server.config]
+javascript = { validate = { enable = false } }
 
 [[language]]
 name = "typescript"
